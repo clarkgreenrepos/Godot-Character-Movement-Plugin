@@ -5,6 +5,8 @@
    - A **Camera3D** child (or assign one via NodePath)  
 3. **Set up the required InputMap actions (see below)**.  
 4. Tune behavior using the Inspector categories.
+<img width="243" height="116" alt="image" src="https://github.com/user-attachments/assets/0c50a664-fb63-420d-b7f6-073b2c267ffa" />
+
 
 ---
 
