@@ -194,8 +194,10 @@ get_move_state()
 
 ```
 CharacterBody3D
+├── MeshInstance3D (Capsule)
 ├── CollisionShape3D (Capsule)
 └── Camera3D
+
 ```
 
 Optional:
