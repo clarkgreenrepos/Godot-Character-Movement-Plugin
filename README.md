@@ -1,4 +1,4 @@
-# **📦 Installation**
+# **Installation**
 1. Add the script to a `CharacterBody3D`.  
 2. Ensure the node contains:  
    - A **CollisionShape3D** (Capsule recommended)  
@@ -8,7 +8,7 @@
 
 ---
 
-# **⚠️ Required Input Setup**
+# **Required Input Setup**
 
 These InputMap actions **must be created** under:
 
@@ -28,9 +28,9 @@ All names are customizable inside the Inspector.
 
 ---
 
-# **🧰 Inspector Options Explained**
+# **Inspector Options Explained**
 
-## **🏃 Ground Physics**
+## **Ground Physics**
 Controls grounded movement.
 
 | Setting | Description |
@@ -46,7 +46,7 @@ Controls grounded movement.
 
 ---
 
-## **🪂 Air Physics**
+## **Air Physics**
 Controls airborne movement, including Quake/Source-style strafe mechanics.
 
 | Setting | Description |
@@ -59,7 +59,7 @@ Controls airborne movement, including Quake/Source-style strafe mechanics.
 
 ---
 
-## **🦘 Jump Settings**
+## **Jump Settings**
 
 | Setting | Description |
 |--------|-------------|
@@ -71,7 +71,7 @@ Controls airborne movement, including Quake/Source-style strafe mechanics.
 
 ---
 
-## **🧎 Crouch Settings**
+## **Crouch Settings**
 
 | Setting | Description |
 |--------|-------------|
@@ -92,7 +92,7 @@ Supports both **head-drop crouch** and **legs-up mid-air crouch** (camera stays 
 
 ---
 
-## **🚶 Walk Settings**
+## **Walk Settings**
 
 | Setting | Description |
 |--------|-------------|
@@ -102,7 +102,7 @@ Supports both **head-drop crouch** and **legs-up mid-air crouch** (camera stays 
 
 ---
 
-## **🏃 Sprint Settings**
+## **Sprint Settings**
 
 | Setting | Description |
 |--------|-------------|
@@ -112,7 +112,7 @@ Supports both **head-drop crouch** and **legs-up mid-air crouch** (camera stays 
 
 ---
 
-# **🎥 Camera Settings**
+# **Camera Settings**
 
 ## **Mouse Look**
 | Setting | Description |
@@ -134,7 +134,7 @@ Supports both **head-drop crouch** and **legs-up mid-air crouch** (camera stays 
 
 ---
 
-# **🎮 Input Action Settings**
+# **Input Action Settings**
 
 | Setting | Description |
 |--------|-------------|
@@ -151,7 +151,7 @@ Supports both **head-drop crouch** and **legs-up mid-air crouch** (camera stays 
 
 ---
 
-# **📡 Node References**
+# **Node References**
 
 | Setting | Description |
 |--------|-------------|
@@ -160,7 +160,7 @@ Supports both **head-drop crouch** and **legs-up mid-air crouch** (camera stays 
 
 ---
 
-# **📊 Movement State Enum**
+# **Movement State Enum**
 
 Useful for animation trees or gameplay logic.
 
@@ -176,7 +176,7 @@ get_move_state()
 
 ---
 
-# **🔔 Signals**
+# **Signals**
 
 | Signal | Fired When |
 |--------|------------|
@@ -188,7 +188,7 @@ get_move_state()
 
 ---
 
-# **🧱 Recommended Node Hierarchy**
+# **Recommended Node Hierarchy**
 
 ```
 CharacterBody3D
