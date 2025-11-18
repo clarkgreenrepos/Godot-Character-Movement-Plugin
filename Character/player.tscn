@@ -1,0 +1,50 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2tlo5wqfr8s"]
+
+[ext_resource type="Script" uid="uid://b2jblyxncds6k" path="res://character_body_3d.gd" id="1_iwpo4"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_h2yge"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ig7tw"]
+size = Vector3(1, 2.0306396, 1)
+
+[node name="CharacterBody3D" type="CharacterBody3D"]
+script = ExtResource("1_iwpo4")
+forward_speed = 4.0
+strafe_speed = 4.0
+slide = true
+slide_friction = 40.0
+slide_padding = 50.0
+enable_acceleration = true
+forward_accel = 100.0
+strafe_accel = 100.0
+air_control_multiplier = 0.8
+preserve_air_momentum = 0.45
+air_strafe_boost = 0.0
+air_strafe_max_mult = 2.0
+jump_velocity = 3.0
+jump_buffer_time = 0.05
+collision_shape_path = NodePath("CollisionShape3D")
+crouch_collider_height = 0.5
+sprint_speed_mult = 1.5
+sprint_accel_mult = 1.0
+max_pitch_deg = 89.0
+enable_bob_on_jump = false
+jump_bob_amount = 0.3
+land_bob_multiplier = 0.05
+bob_down_speed = 2.0
+bob_up_speed = 2.0
+strafe_tilt_angle = 0.6
+strafe_tilt_speed = 0.1
+handle_quit_action = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7011657, 0)
+mesh = SubResource("CapsuleMesh_h2yge")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7098937, 0)
+shape = SubResource("BoxShape3D_ig7tw")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.228689, 0.09196091)
