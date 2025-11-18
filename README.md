@@ -3,7 +3,7 @@
 A fully-featured, highly-customizable **3D CharacterBody controller** for Godot 4, designed for first-person and third-person games.  
 This controller supports responsive grounded motion, advanced air physics, sliding, sprinting, walking, crouching (with optional legs-up behavior), jump buffering, coyote time, camera effects, and more.
 
-💡 **The repository includes a complete, ready-to-use Player scene**:  
+**The repository includes a complete, ready-to-use Player scene**:  
 ```
 Player.tscn
 └── CharacterBody3D (root, script attached)
@@ -15,7 +15,7 @@ Just drop the scene into your level—no manual setup needed.
 
 ---
 
-# **📦 Installation**
+# **Installation**
 
 1. Clone or download this repository.  
 2. Drag `Player.tscn` into your Godot project.  
@@ -32,7 +32,7 @@ Everything else works out of the box.
 
 ---
 
-# **⚠️ Required Input Setup**
+# **Required Input Setup**
 
 Under:
 
@@ -54,13 +54,13 @@ The controller script references these InputActions, but you can rename them in 
 
 ---
 
-# **🧰 Inspector Options Explained**
+# **Inspector Options Explained**
 
 The controller exposes a large number of tunable variables organized into sections inside the Inspector.
 
 ---
 
-## **🏃 Ground Physics**
+## **Ground Physics**
 
 | Setting | Description |
 |--------|-------------|
@@ -75,7 +75,7 @@ The controller exposes a large number of tunable variables organized into sectio
 
 ---
 
-## **🪂 Air Physics**
+## **Air Physics**
 
 | Setting | Description |
 |--------|-------------|
@@ -87,7 +87,7 @@ The controller exposes a large number of tunable variables organized into sectio
 
 ---
 
-## **🦘 Jump Settings**
+## **Jump Settings**
 
 | Setting | Description |
 |--------|-------------|
@@ -99,7 +99,7 @@ The controller exposes a large number of tunable variables organized into sectio
 
 ---
 
-## **🧎 Crouch Settings**
+## **Crouch Settings**
 
 | Setting | Description |
 |--------|-------------|
@@ -123,7 +123,7 @@ The controller exposes a large number of tunable variables organized into sectio
 
 ---
 
-## **🚶 Walk Settings**
+## **Walk Settings**
 | Setting | Description |
 |--------|-------------|
 | **enable_walk** | Enables walk toggle. |
@@ -132,7 +132,7 @@ The controller exposes a large number of tunable variables organized into sectio
 
 ---
 
-## **🏃 Sprint Settings**
+## **Sprint Settings**
 | Setting | Description |
 |--------|-------------|
 | **enable_sprint** | Enables sprint mechanic. |
@@ -141,7 +141,7 @@ The controller exposes a large number of tunable variables organized into sectio
 
 ---
 
-# **🎥 Camera Settings**
+# **Camera Settings**
 
 ## **Mouse Look**
 
@@ -167,7 +167,7 @@ The controller exposes a large number of tunable variables organized into sectio
 
 ---
 
-# **🎮 Input Action Settings**
+# **Input Action Settings**
 
 | Setting | Description |
 |--------|-------------|
@@ -184,7 +184,7 @@ The controller exposes a large number of tunable variables organized into sectio
 
 ---
 
-# **📡 Node References**
+# **Node References**
 
 | Setting | Description |
 |--------|-------------|
@@ -193,7 +193,7 @@ The controller exposes a large number of tunable variables organized into sectio
 
 ---
 
-# **📊 Movement State Enum**
+# **Movement State Enum**
 
 The controller exposes:
 
@@ -209,7 +209,7 @@ get_move_state()
 
 ---
 
-# **🔔 Signals**
+# **Signals**
 
 | Signal | Fired When |
 |--------|------------|
@@ -221,7 +221,7 @@ get_move_state()
 
 ---
 
-# **🧱 Included Player Scene**
+# **Included Player Scene**
 
 The repository includes a fully assembled player scene:
 
