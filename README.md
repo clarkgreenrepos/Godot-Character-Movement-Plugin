@@ -242,7 +242,7 @@ Just drag **Player.tscn** into your scene and press Play.
 
 ---
 
-# **🏁 Usage Example**
+# **Usage Example**
 
 ```gdscript
 extends Node3D
@@ -256,6 +256,6 @@ func _physics_process(delta):
 
 ---
 
-# **📜 License**
+# **License**
 MIT License — free for personal and commercial use.
 
