@@ -11,7 +11,7 @@ Player.tscn
     ├── CollisionShape3D (capsule)
     └── Camera3D
 ```
-Just drop the scene into your level—no manual setup needed.
+Just drop the scene into your level. No other set up is needed.
 
 <img width="262" height="133" alt="image" src="https://github.com/user-attachments/assets/067ddfc3-a95a-4af5-b434-f49a01b7595f" />
 
